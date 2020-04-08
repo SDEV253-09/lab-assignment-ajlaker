@@ -28,7 +28,7 @@
                   echo "Hi ".$_POST['name']." ".$_POST['lastname']. "!<br />";
            if (validate_email($_POST['email']))
                   echo "<p>The address ".$_POST['email']." is valid!</p><p style='color:red;'>Also, I discoved that 'eregi' was deprecated in PHP 5.3 and REMOVED in PHP 7. I needed to change it to mb_ereg for this script to work correctly.<br> There was also a problem with the provided regular expression in that it would not validate a valid email.<br>
-                  A working alternative regular expression for this is ^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$</p><p style='color:red;'>Lastly, you guys might want to go through all of these assignments and vet them. The code in this assignment points to page 306. Not only is it not on page 306, I couldn't find the code in the book at all. The problem is that the assignment references the second edition of the book. The current book is in its Fifth Edition</b>.";
+                  A working alternative regular expression for this is ^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$</p><p style='color:red;'>Lastly, you guys might want to go through all of these assignments and vet them. The code in this assignment points to page 306. Not only is it not on page 306, I couldn't find the code in the book at all. The problem is that the assignment references the second edition of the book. The current book is in its Fifth Edition.</p>";
               else
                   echo "The address <strong>".$_POST['email']."</strong> is invalid!";
                }

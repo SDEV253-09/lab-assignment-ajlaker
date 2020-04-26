@@ -1,1 +1,1 @@
-{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/Andrew/lab-assignment-ajlaker","disabled":false,"__vagrantfile":true}}}
+{"virtualbox":{"/var/www/html":{"guestpath":"/var/www/html","hostpath":"C:/Users/Andrew/lab-assignment-ajlaker/www","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/Andrew/lab-assignment-ajlaker","disabled":false,"__vagrantfile":true}}}
